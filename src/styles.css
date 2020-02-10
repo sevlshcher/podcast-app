@@ -33,6 +33,34 @@
    margin-left: auto;
    font-size: .8rem;
  }
+
+ .floating-btn {
+   position: fixed;
+   margin: 0;
+   bottom: 5vh;
+   right: 3vw;
+ }
+
+ .modal {
+   max-width: fit-content;
+   max-height: 40vh;
+   padding: 3rem;
+   margin: 30vh auto;
+   overflow-y: auto;
+   background: #fff;
+   border-radius: 8px;
+ }
+
+ .modal > h1 {
+   text-align: center;
+ }
+ .auth-btn {
+   display: block;
+   margin: auto;
+ }
+ .error {
+   color: #E57373;
+ }
  
  @media (min-width: 768px) {
    #sidebar {
